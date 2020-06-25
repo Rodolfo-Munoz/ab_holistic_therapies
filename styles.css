@@ -1,0 +1,465 @@
+/**
+ * @styles.css
+ * Styles for ab holistic therapies web site
+ */
+
+
+body {
+                
+    background-color: #f6f6f4;
+    padding-top: 55px;
+                             
+}
+  
+
+.jumbotron {
+                
+    background-image: url( images/gotas.jpg);
+    text-align: center;
+    min-height: 430px;
+                
+}
+
+
+#signUpButton {
+                          
+    margin-left: 3px;
+                
+}
+
+
+#email {
+                
+    width: 230px;
+                
+}
+
+
+#appSummary {
+                
+    background-color: #343A40  ;
+    text-align: center;            
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+                        
+}
+
+
+#appIcon {
+                
+    width: 200px;
+                
+}
+            
+            
+#footer {
+                
+    background-image: url(images/bg-pattern-blue.gif);
+    padding-top: 50px;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 60px;
+                
+}
+            
+
+#logo-navbar {
+                
+    width: 50px;
+              
+}
+            
+
+#logo-midBar {
+                
+    width: 100px;
+    float: right;
+                 
+}
+            
+
+#separator {
+                
+    background: azure;
+            
+}
+            
+
+a {
+            
+    color: darkseagreen;
+                   
+}
+     
+
+a:hover {
+                
+    text-decoration: none;
+    color: darkgreen;
+                
+}
+            
+#mail {
+                
+    margin-right: 2px;
+
+}
+            
+#main {
+                    
+    margin-top: 0px;
+                
+}
+
+
+/* This formats the content sections */
+
+.how-section1 {
+    
+    margin-top:-15%;
+    padding: 10%;
+    
+}
+
+
+.how-section1 h4 {
+    
+    color: #ffa500;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+
+.how-section1 .subheading {
+    
+    color: darkgreen;
+    font-size: 20px;
+    
+}
+
+
+.how-section1 .row {
+    
+    margin-top: 10%;
+    
+}
+
+
+.how-img {
+    
+    text-align: center;
+    
+}
+
+.how-img img {
+    
+    width: 100%;
+    
+}
+
+           
+.services {
+    
+    color: darkgreen;
+    
+} 
+
+
+#summary-text {
+
+    margin: 0;
+        
+}
+
+
+#logo-summary {
+    
+    width: 135px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0;
+    
+}
+                
+  
+/* Interactive footer */
+
+/*FOOTER*/
+
+
+
+footer a {
+    
+      color: #fff;
+      font-size: 14px;
+      transition-duration: 0.2s;
+
+}
+
+
+footer a:hover {
+    
+    color: #FA944B;
+    text-decoration: none;
+
+}
+
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+    
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+
+}
+
+
+ul.social-network li {
+    
+    display: inline;
+    margin: 0 5px;
+
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  
+        background-color: #3B5998;
+
+}
+
+
+.social-network a.icoLinkedin:hover {
+    
+    background-color: #007bb7;
+
+}
+
+
+.social-network a.icoInstagram:hover {
+    
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+
+}
+
+
+.social-network a.icoPhone:hover {
+    
+    background-color: green;
+
+}
+
+
+.social-network a.icoCalendar:hover {
+    
+    background-color: #3B5998;
+
+}
+
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoPhone:hover i,
+.social-network a.icoInstagram:hover i,
+.social-network a.icoCalendar:hover i {
+    
+  color: #fff;
+
+}
+
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  
+    color: #44BCDD;
+
+}
+
+.social-circle li a {
+    
+      display: inline-block;
+      position: relative;
+      margin: 0 auto 0 auto;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      font-size: 32px;
+
+}
+
+
+.social-circle li i {
+    
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+.social-circle li a:hover i,
+.triggeredHover {
+    
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -ms--transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+      transition: all 0.2s;
+
+}
+
+
+.social-circle i {
+    
+  color: #595959;
+      -webkit-transition: all 0.8s;
+      -moz-transition: all 0.8s;
+      -o-transition: all 0.8s;
+      -ms-transition: all 0.8s;
+      transition: all 0.8s;
+    
+}
+
+/*code for appointment button*/
+
+.social-circle-2 li a {
+    
+      display: inline-block;
+      position: relative;
+      margin: 0 auto 0 auto;
+      -moz-border-radius: 50%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      text-align: center;
+      width: 35px;
+      height: 35px;
+      font-size: 22px;
+    
+}
+
+
+.social-circle-2 li i {
+    
+      margin: 0;
+      line-height: 30px;
+      text-align: center;
+
+}
+
+.social-circle-2 li a:hover i,
+.triggeredHover {
+    
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -ms--transform: rotate(360deg);
+      transform: rotate(360deg);
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+      transition: all 0.2s;
+    
+}
+
+
+.social-circle-2 i {
+    
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+
+}
+
+
+.social-network a {
+    
+    background-color: #F9F9F9;
+
+}
+
+
+#ab {
+    
+    
+    color: #F36C4E;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: -4px ;
+    
+}
+
+
+#ab2 {
+    
+    
+    color: #F36C4E;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 0px ;
+    
+}
+    
+
+#quote {
+    
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Marck Script', cursive;
+    font-size: 35px;
+    
+}   
+
+
+#appointment {
+    
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+
+#logo-container{
+    
+    text-align: center;
+    margin-top: -35px;
+    
+}
+
+
+#map {
+    
+    text-align: center;
+    padding-left: 0;
+    margin-left: -20px;
+    
+}
+
+
+#logo-voucher {
+    
+    width: 150px;
+    
+}
